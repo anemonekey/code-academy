@@ -1,0 +1,31 @@
+/* Great job! Your CSS code is very well formatted and structured. */
+
+/* Excellent job! By applying the style rule to the html tag, all the elements inside of this tag will also inherit the styling. This is a great way to simplify your code. */
+html {
+  font-family: Helvetica;
+}
+.title {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url("../images/pattern.jpeg");
+}
+.sub-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+.springgreen {
+  background-color: mediumspringgreen;
+}
+.coral {
+  background-color: lightcoral;
+}
+.skyblue {
+  background-color: skyblue;
+}
+.blue {
+  font-weight: bold;
+  color: blue;
+}

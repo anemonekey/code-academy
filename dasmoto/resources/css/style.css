@@ -1,0 +1,28 @@
+html {
+  font-family: Helvetica;
+}
+.title {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url("../images/pattern.jpeg");
+}
+.sub-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+.springgreen {
+  background-color: mediumspringgreen;
+}
+.coral {
+  background-color: lightcoral;
+}
+.skyblue {
+  background-color: skyblue;
+}
+.blue {
+  font-weight: bold;
+  color: blue;
+}

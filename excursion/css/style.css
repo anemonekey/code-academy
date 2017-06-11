@@ -1,0 +1,22 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+header h1 {
+  font-size: 50px;
+}
+a, a:link, a:visited, a:focus, a:hover, a:active a.dl-link {
+  color:aquamarine;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+}
+.content p {
+  color: gray;
+  font-size: 21px;
+}
