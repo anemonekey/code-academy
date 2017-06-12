@@ -1,0 +1,141 @@
+/* universal styles */
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: #000;
+  opacity: 0.9;
+}
+ul {
+  list-style: none;
+}
+
+/* header styles */
+header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 68px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  border-bottom: 1px solid seashell;
+  background-color: #000;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  margin-left: 10px;
+  height: 50px;
+}
+header nav ul {
+  overflow: hidden;
+}
+header nav ul li {
+  float: left;
+  margin-right: 30px;
+}
+header nav ul li a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/* container styles */
+div.container {
+  position: relative;
+  top: 69px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+div.mission {
+  background: url('../images/img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  display: inline-flex;
+  align-items: center;
+}
+div.mission-text {
+  background-color: #000;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+}
+div.mission-text h2,
+div.mission-text h4 {
+  text-align: center;
+  margin: 0;
+  padding: 5px 0;
+}
+
+div.tea {
+  width: 1000px;
+  margin: 50px auto;
+  text-align: center;
+}
+div.tea ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+div.tea ul li {
+  margin: 0 20px 20px 0;
+}
+div.tea ul li img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+div.tea ul li h4 {
+  margin: 0;
+  padding: 0;
+}
+
+div.locations {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background: url('../images/img-locations-background.jpg');
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+div.locations h2 {
+  margin: 0 0 10px;
+}
+div.locations ul {
+  margin-top: 15px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+div.locations ul li {
+  width: 300px;
+  margin-right: 40px;
+  background-color: #000;
+  opacity: 1;
+}
+
+/* footer styles */
+footer {
+  position: relative;
+  top: 69px;
+  width: 100%;
+}
+.footer-main {
+  height: 200px;
+  text-align: center;
+}
+p.copyright {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
